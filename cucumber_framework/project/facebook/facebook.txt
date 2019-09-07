@@ -1,0 +1,9 @@
+
+I open browser
+I launch facebook URL
+I enter email
+I enter password
+I click on login button
+I should be on home page
+I can see side menu in home page
+I search for my friend, whose name is Tom
