@@ -11,20 +11,3 @@ Then ('I should see sign-up page') do
   @facebook = Facebook.new
   expect(@facebook.is_sign_up_button_displayed).to eq(true)
 end
-
-And ('I enter email') do
-  @facebook = Facebook.new
-  @facebook.enter_email()
-end
-
-And ('I enter password') do
-  @facebook.enter_password()
-end
-
-And ('I click on login button') do
-  @facebook.click_login_button()
-end
-
-Then ('I should be on home page') do
-  expect(@facebook.read_left_menu).to include("News Feed")
-end
