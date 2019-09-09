@@ -1,4 +1,3 @@
-
 I open browser
 I launch facebook URL
 I enter email
