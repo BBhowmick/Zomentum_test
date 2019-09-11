@@ -7,7 +7,7 @@ When ('I launch facebook URL') do
   @browser.launch_url(FB_URL)
 end
 
-Then ('I should see sign-up page') do
+Then ('हैलो फ़ाइल पहले') do
   @facebook = Facebook.new
   expect(@facebook.is_sign_up_button_displayed).to eq(true)
 end
