@@ -1,7 +1,0 @@
-  I open browser
-  I launch facebook URL and go to facebook
-  I Should login option on facebook homepage
-  I enter email
-  I enter password
-  I click on login button
-  I can see side menu in home page
